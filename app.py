@@ -12,6 +12,10 @@ def detail():
     return "詳細画面"
 
 
-@app.route("list")
+@app.route("/list")
 def list():
+    pass
+
+@app.route("/edit")
+def edit():
     pass
