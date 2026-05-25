@@ -7,12 +7,6 @@ app = Flask(__name__)
 def index():
     return "こんにちは"
 
-
-@app.route("/add")
-def add():
-    if # POSTで飛んで来たら:
-        # フォームの内容チェック
-        if # 正しければ:
-            # insert
-            # 詳細画面にリダイレクト
-        
+@app.route("/detail")
+def detail():
+    return "詳細画面"
