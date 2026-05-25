@@ -10,3 +10,8 @@ def index():
 @app.route("/detail")
 def detail():
     return "詳細画面"
+
+
+@app.route("list")
+def list():
+    pass
